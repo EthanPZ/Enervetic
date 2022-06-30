@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding: 10px 10%;
+    font-family: 'Inter';
+}
+
+header > h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+
+header > ul > li {
+    padding: 7px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 7% 10%;
+    gap: 5rem;
+}
+
+.txtbtn > h1 {
+    color: white;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.txtbtn > button {
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-family: 'Inter';
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 20%;
+    min-width: fit-content;
+    max-width: 150px;
+}
+
+.whyus {
+    background-color: #222222;
+    padding: 20px;
+}
+
+.whyus > h2 {
+    font-family: 'Inter';
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0 20px 0;
+}
+
+.whyus > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.whyus > div > div {
+    width: 10%;
+    max-width: 400px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    user-select: none;
+    background-color: #303030;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.291);
+}
+
+.whyus > div > div > p {
+    color: #ACACAC;
+}
+
+.sect2 {
+    width: 100%;
+}
+
+.onetxt {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Inter';
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5%;
+    line-height: 50px;
+}
+
+.onetxt::before {
+    content: "ONE PLACE FOR EVERYTHING";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 60px;
+    color: #484848;
+    opacity: 20%;
+    text-align: center;
+}
+
+.wrapthings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0px 10%;
+    gap: 30%;
+    margin-bottom: 8%;
+}
+
+.wrapthings2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0px 10%;
+    gap: 30%;
+}
+
+.h1p > h1 {
+    font-family: 'Inter';
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.h1p > p {
+    color: #ACACAC;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    font-family: 'Inter';
+    width: 68%;
+}
+
+footer {
+    background-color: #222222;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer > h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    margin: 0;
+}
+
+footer > p {
+    text-align: center;
+    color: #ACACAC;
+    margin: 10px 0 10px 0;
+    font-family: 'Inter';
+}
+
+
+@media only screen and (max-width: 1200px) {
+    header {
+        padding: 10px 5%;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    .main {
+        display: block;
+        text-align: center;
+    }
+
+    .main > img {
+        width: 60%;
+        margin-top: 20%;
+    }
+
+    .wrapthings, .wrapthings2 {
+        display: block;
+        text-align: center;
+    }
+
+    .wrapthings > img {
+        width: 40%;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .wrapthings2 > img {
+        width: 40%;
+        margin-top: 25px;
+    }
+
+    .h1p > p {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .main > img {
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .whyus > div > div {
+        width: 30%;
+        max-width: 400px;
+    }
+
+    header > h2 {
+        font-size: 30px;
+    }
+
+    .wrapthings, .wrapthings2 {
+        display: block;
+        text-align: center;
+    }
+
+    .wrapthings > img {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .wrapthings2 > img {
+        width: 80%;
+        margin-top: 25px;
+    }
+}
