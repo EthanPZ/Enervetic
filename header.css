@@ -37,3 +37,27 @@ header > ul > li {
 header > ul > li:hover {
     color: #ACACAC;
 }
+
+header > img {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        padding: 10px 5%;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    header > img {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    header > h2 {
+        font-size: 30px;
+    }
+}

@@ -172,14 +172,6 @@ footer > p {
 
 
 @media only screen and (max-width: 1200px) {
-    header {
-        padding: 10px 5%;
-    }
-
-    header > ul {
-        display: none;
-    }
-
     .main {
         display: block;
         text-align: center;
@@ -221,11 +213,7 @@ footer > p {
         width: 30%;
         max-width: 400px;
     }
-
-    header > h2 {
-        font-size: 30px;
-    }
-
+    
     .wrapthings, .wrapthings2 {
         display: block;
         text-align: center;
@@ -240,5 +228,10 @@ footer > p {
     .wrapthings2 > img {
         width: 80%;
         margin-top: 25px;
+    }
+
+    .txtbtn > button {
+        width: 100%;
+        max-width: 200px;
     }
 }
