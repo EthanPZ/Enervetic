@@ -1,41 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(./header.css);
 
 body {
     margin: 0;
     padding: 0;
     background-color: #191919;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #252525;
-    color: white;
-    padding: 10px 10%;
-    font-family: 'Inter';
-}
-
-header > h2 {
-    margin: 0;
-    font-size: 40px;
-}
-
-header > ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    font-size: 20px;
-    padding-right: 5px;
-    font-weight: 400;
-}
-
-header > ul > li {
-    padding: 7px;
+    user-select: none;
 }
 
 .main {
@@ -66,6 +36,12 @@ header > ul > li {
     width: 20%;
     min-width: fit-content;
     max-width: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.txtbtn > button:hover {
+    background-color: #272727;
 }
 
 .whyus {
@@ -102,6 +78,11 @@ header > ul > li {
     user-select: none;
     background-color: #303030;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.291);
+    transition: box-shadow 0.3s;
+}
+
+.whyus > div > div:hover {
+    box-shadow: none;
 }
 
 .whyus > div > div > p {
