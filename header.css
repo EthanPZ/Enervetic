@@ -42,6 +42,14 @@ header > img {
     display: none;
 }
 
+::-webkit-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 @media only screen and (max-width: 1200px) {
     header {
         padding: 10px 5%;
