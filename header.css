@@ -31,4 +31,9 @@ header > ul {
 header > ul > li {
     padding: 7px;
     cursor: pointer;
+    transition: color 0.3s;
+}
+
+header > ul > li:hover {
+    color: #ACACAC;
 }
