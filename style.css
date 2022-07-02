@@ -145,6 +145,7 @@
     .main {
         display: block;
         text-align: center;
+        padding: 10% 10%;
     }
 
     .main > img {
@@ -178,6 +179,10 @@
 }
 
 @media only screen and (max-width: 920px) {
+    .main {
+        padding: 12% 10%;
+    }
+    
     .main > img {
         width: 100%;
         margin-top: 20%;

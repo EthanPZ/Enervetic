@@ -30,12 +30,12 @@
     padding: 10px;
     border-radius: 20px;
     max-width: 450px;
-    height: 135px;
+    min-height: 135px;
 }
 
 .wrapvid {
     margin: 0 auto;
-    width: 75%;
+    width: 73%;
     background-color: #303030;
     border-radius: 20px;
     padding: 20px;
@@ -50,7 +50,7 @@
 @media only screen and (max-width: 1200px) {
     .wrapabout {
         display: block;
-        margin-top: 69px;
+        margin-top: 80px;
     }
 
     .wrapabout > div {
@@ -73,7 +73,11 @@
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        padding: 10px;
+    .wrapabout {
+        margin: 80px 10px 0 10px;
+    }
+
+    .wrapvid {
+        margin: 10px auto;
     }
 }
