@@ -1,0 +1,19 @@
+footer {
+    background-color: #222222;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer > h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    margin: 0;
+}
+
+footer > p {
+    text-align: center;
+    color: #ACACAC;
+    margin: 10px 0 10px 0;
+    font-family: 'Inter';
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(../header.css);
+@import url(../footer.css);
+@import url(../main.css);
+
+.wrapabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: 'Inter';
+    margin-top: 105px;
+}
+
+.wrapabout > div > h2 {
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 0 0;
+}
+
+.wrapabout > div > p {
+    margin: 10px 0 10px 0;
+    min-width: 85%;
+}
+
+.wrapabout > div {
+    margin: 10px;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 450px;
+    height: 135px;
+}
+
+.wrapvid {
+    margin: 0 auto;
+    width: 75%;
+    background-color: #303030;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.wrapvid > div {
+    margin: 0 auto;
+    background-color: #252525;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wrapabout {
+        display: block;
+        margin-top: 69px;
+    }
+
+    .wrapabout > div {
+        margin: 12px auto;
+    }
+
+    .wrapvid {
+        display: block;
+        width: 86%;
+        margin: 0 auto;
+        max-width: 425px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .wrapabout {
+        display: block;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+}

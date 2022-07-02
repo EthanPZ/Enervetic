@@ -13,7 +13,7 @@ header {
     z-index: 1;
 }
 
-header > h2 {
+header > a > h2 {
     margin: 0;
     font-size: 40px;
     cursor: pointer;
@@ -28,13 +28,13 @@ header > ul {
     font-weight: 400;
 }
 
-header > ul > li {
+header > ul > a > li {
     padding: 7px;
     cursor: pointer;
     transition: color 0.3s;
 }
 
-header > ul > li:hover {
+header > ul > a > li:hover {
     color: #ACACAC;
 }
 

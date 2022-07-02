@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    user-select: none;
+}
+
+p {
+    color: #ACACAC;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
