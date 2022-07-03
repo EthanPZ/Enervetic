@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(../header.css);
+@import url(../footer.css);
+@import url(../main.css);
+
+header {
+    position: static;
+}
+
+.ourdiv {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    background-color: #303030;
+    padding: 30px;
+}
+
+.ourdiv > h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.projectwrap {
+    display: inline-block;
+}
+
+.projects > div {
+    background-color: #252525;
+    width: fit-content;
+    padding: 12px;
+    margin: 12px 0 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.projects > div:hover {
+    background-color: #202020;
+}
+
+.projects > h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter';
+    margin: 25px 0 0 20px ;
+}
+
+.projects > div > h3 {
+    color: white;
+    font-family: 'Inter';
+    margin: 0;
+    text-align: center;
+}
+
+.projectwrap > div {
+    width: 300px;
+}
+
+.projectwrap > div > h3 {
+    color: white;
+    font-family: 'Inter';
+    margin: 7px 0 0 0;
+}
+
+.projectwrap > div > p {
+    margin-top: 7px;
+}
+
+.projectwrap > div > img {
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#menu > ul {
+    margin: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 920px) {}
