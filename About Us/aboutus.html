@@ -12,12 +12,20 @@
     
     <header>
         <a href="../index.html"><h2>ENERVETIC</h2></a>
-        <img src="../pics/icons8-menu.svg" width="35">
+        <img onclick="openside()" src="../pics/icons8-menu.svg" width="35" id="menuopen">
+        <img onclick="closeside()" src="../pics/icons8-close.svg" width="30" id="menuclose">
         <ul>
             <a href="../index.html"><li>Home</li></a>
             <a href="#"><li>About Us</li></a>
         </ul>
     </header>
+
+    <div id="menu">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="#"><li>About Us</li></a>
+        </ul>
+    </div>
 
     <div class="wrapabout">
         <div>
@@ -37,7 +45,7 @@
     <div class="wrapvid">
         <div>
             <div>
-                <div style="padding:40% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726368439?h=a2c4c30593&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="finish"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+                <div style="padding:40% 0 0 0; position:relative;"><iframe src="https://player.vimeo.com/video/726368439?h=a2c4c30593&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="finish"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
         </div>
     </div>
 
@@ -47,6 +55,8 @@
         </p>
         <p>©️2022, Enervetic</p>
     </footer>
+
+    <script src="../menu.js"></script>
 
 </body>
 </html>

@@ -12,12 +12,20 @@
     
     <header>
         <a href="#"><h2>ENERVETIC</h2></a>
-        <img src="./pics/icons8-menu.svg" width="35">
+        <img onclick="openside()" src="./pics/icons8-menu.svg" width="35" id="menuopen" class="menuopen">
+        <img onclick="closeside()" src="./pics/icons8-close.svg" width="30" id="menuclose" class="menuclose">
         <ul>
             <a href="#"><li>Home</li></a>
             <a href="./About Us/aboutus.html"><li>About Us</li></a>
         </ul>
     </header>
+
+    <div id="menu" class="menu">
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="./About Us/aboutus.html"><li>About Us</li></a>
+        </ul>
+    </div>
 
     <main>
 
@@ -73,8 +81,9 @@
             </p>
             <p>©️2022, Enervetic</p>
         </footer>
-
     </main>
+
+    <script src="./menu.js"></script>
 
 </body>
 </html>
