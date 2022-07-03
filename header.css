@@ -74,6 +74,10 @@ header > img {
     background-color: #303030;
 }
 
+#menumobile {
+    display: none !important;
+}
+
 ::-webkit-scrollbar {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -103,5 +107,9 @@ header > img {
 
     header > ul {
         display: none;
+    }
+
+    #menumobile {
+        display: block !important;
     }
 }
