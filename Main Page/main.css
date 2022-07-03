@@ -3,10 +3,6 @@
 @import url(../footer.css);
 @import url(../main.css);
 
-header {
-    position: static;
-}
-
 .ourdiv {
     text-align: center;
     font-family: 'Inter';
